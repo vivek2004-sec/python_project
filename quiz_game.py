@@ -66,3 +66,13 @@ else:
     
 total_score = score
 print("Your total Score is -> ",total_score)
+
+
+if total_score <= 5:
+    print("Excellent!, you got" + str(total_score)+ "very good.")
+elif total_score == 4:
+    print("Nice!, you got " + str(total_score) +  "very good.")
+elif (2 <= total_score <= 3 ):
+    ("Try Hard next time, your score is" + str(total_score))
+else:
+    print("Better Luck next time"+str(total_score))
