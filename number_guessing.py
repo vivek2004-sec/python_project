@@ -17,11 +17,26 @@ else:
     
 random_number = random.randint(0, top_of_range)
 
-guess = int(input("Please make a guess: "))
 
-while random_number == guess:
-    print("Whoa! your guess is correct.")
+
+
+while True:
+    guess = input("Please make a guess: ")
+    if guess.isdigit():
+        guess = int(guess)
+    else:
+        print("please type a number next time.")
+        continue
+    
+
+    if random_number == guess:
+        print("The random number is ->", random_number)
+        print("Whoa! You got it.")
+    else:
+        print("The random number is ->", random_number)
+        print("Better Luck next time.")
     break
 
-print("Sorry, the number is ->",random_number)
-print("Better Luck next time.")
+
+
+    
