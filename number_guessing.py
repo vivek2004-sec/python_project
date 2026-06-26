@@ -32,10 +32,12 @@ while True:
     if random_number == guess:
         print("The random number is ->", random_number)
         print("Whoa! You got it.")
+        break
     else:
         print("The random number is ->", random_number)
         print("Better Luck next time.")
-    break
+        break
+    
 
 
 
