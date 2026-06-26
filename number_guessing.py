@@ -1,7 +1,19 @@
 import random
 
 
-top_of_range = int(input("Enter a number: "))
+top_of_range = (input("Enter a number: "))
 
-random_number = random.randint(0, int(f"{top_of_range}"))
+if top_of_range.isdigit():
+    top_of_range = int(top_of_range)
+    
+    if top_of_range <= 0:
+        print("Please enter a larger number.")
+        quit()
+else:
+    print("Please Enter a valid digit.")
+    quit()
+    
+    
+    
+random_number = random.randint(0, top_of_range)
 print(random_number)
