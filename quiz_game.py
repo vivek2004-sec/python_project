@@ -65,4 +65,4 @@ else:
     print("Sorry, answer is Incorrect.")
     
 total_score = score
-print("Your total Score is: " ,total_score)
+print("Your total Score is -> ",total_score)
