@@ -16,11 +16,13 @@ else:
     
     
 random_number = random.randint(0, top_of_range)
-
+guesses = 0
 
 
 
 while True:
+    
+    guesses += 1
     guess = input("Please make a guess: ")
     if guess.isdigit():
         guess = int(guess)
@@ -30,15 +32,14 @@ while True:
     
 
     if random_number == guess:
-        print("The random number is ->", random_number)
         print("Whoa! You got it.")
         break
+        
     else:
-        print("The random number is ->", random_number)
         print("Better Luck next time.")
-        break
-    
 
+    
+print("The number of guesses you take ->", guesses)
 
 
     
