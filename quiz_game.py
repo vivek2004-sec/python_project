@@ -7,12 +7,15 @@ if playing.lower() != 'yes':
 
 print("okay Let's Play :)")
 
+score = 0
+
 Q = "What does CPU stands for?"
 print(Q)
 ans = input("ans: ")
 
 if ans.lower() == "central processing unit":
     print("Whoa! you are correct.")
+    score += 1
 else:
     print("Sorry, answer is Incorrect.")
     
@@ -24,6 +27,7 @@ ans = input("ans: ")
 
 if ans == "HELLO":
     print("Whoa! you are correct.")
+    score += 1
 else:
     print("Sorry, answer is Incorrect.")
     
@@ -34,6 +38,7 @@ ans = input("ans: ")
 
 if ans.lower() == "string":
     print("Whoa! you are correct.")
+    score += 1
 else:
     print("Sorry, answer is Incorrect.")
     
@@ -44,6 +49,7 @@ ans = input("ans: ")
 
 if ans.lower() == "cristiano ronaldo":
     print("Whoa! you are correct.")
+    score += 1
 else:
     print("Sorry, answer is Incorrect.")
     
@@ -54,5 +60,9 @@ ans = input("ans: ")
 
 if ans.lower() == "argentina":
     print("Whoa! you are correct.")
+    score += 1
 else:
     print("Sorry, answer is Incorrect.")
+    
+total_score = score
+print("Your total Score is: " ,total_score)
