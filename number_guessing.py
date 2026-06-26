@@ -16,4 +16,12 @@ else:
     
     
 random_number = random.randint(0, top_of_range)
-print(random_number)
+
+guess = int(input("Please make a guess: "))
+
+while random_number == guess:
+    print("Whoa! your guess is correct.")
+    break
+
+print("Sorry, the number is ->",random_number)
+print("Better Luck next time.")
