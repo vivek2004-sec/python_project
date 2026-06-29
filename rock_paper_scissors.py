@@ -5,5 +5,14 @@ computer_wins = 0
 
 while True:
     user_input = input("Please enter rock/paper/scissors or Q to quit: ").lower()
+    if user_input == "q":
+        quit()
+    
+    if user_input not in ['rock', 'paper', 'scissors']:
+        print("please enter valid user input.")
+    else:
+        print(user_input)
+        quit()
+
     
 
