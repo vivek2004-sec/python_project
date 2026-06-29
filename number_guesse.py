@@ -16,16 +16,11 @@ def get_top_of_range() -> int:
     >>> isinstance(get_top_of_range(), int)
     True
     """
-    top_of_range = input("Enter the upper bound number: ")
-    if top_of_range.isdigit():
-        top_of_range = int(top_of_range)
-        if top_of_range <= 0:
-            print("Please enter a number larger than 0.")
-            quit()
+    top_of_range = int(input("Enter the upper bound number: "))
+    if top_of_range <= 0:
+        print("Please enter a number larger than 0.")
     else:
-        print("Please enter a valid digit.")
-        quit()
-    return top_of_range
+       return top_of_range
 
 
 def get_guess() -> int:
@@ -36,7 +31,7 @@ def get_guess() -> int:
     True
     """
     while True:
-        guess = input("Please make a guess: ")
+        guess = (input("Please make a guess: "))
         if guess.isdigit():
             return int(guess)
         print("Please type a number next time.")
