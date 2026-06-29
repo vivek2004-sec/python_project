@@ -30,12 +30,10 @@ def get_guess() -> int:
     >>> isinstance(get_guess(), int)
     True
     """
-    while True:
-        guess = (input("Please make a guess: "))
-        if guess.isdigit():
-            return int(guess)
-        print("Please type a number next time.")
-
+    
+    guess = int(input("Please make a guess: "))
+    return guess
+        
 
 def play_game(top_of_range: int) -> int:
     """
