@@ -12,6 +12,7 @@ while True:
         continue
     
     random_number = random.randint(0, 2)
+    # rock : 0 , paper : 1, scissors : 3
        
     
 print("Goodbye!")
