@@ -1,28 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+.idea/vcs.xml<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="41dfc6a2-92ba-4a6c-8ff4-5f9ef0d9b269" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../YouTube.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/01_Python_Basics/app,py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/01_Python_Basics/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/01_Python_Basics/for_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/01_Python_Basics/if_else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/01_Python_Basics/methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/01_Python_Basics/string_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/01_Python_Basics/string_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_ai/leetcode problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="36WAWSWskXzDiXH5uQiRsV5vZJe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,8 +36,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
