@@ -14,9 +14,9 @@ while True:
         continue
     
     random_number = random.randint(0, 2)
-    # rock : 0 , paper : 1, scissors : 3
+    # rock : 0 , paper : 1, scissors : 2
     computer_pick = options[random_number]
-    print("Computet:",computer_pick)
+    print("Computer:",computer_pick)
     
     
     
@@ -24,33 +24,37 @@ while True:
         print("It's a tie.")
         continue
     
-    if computer_pick == "rock" and user_input == "paper":
+    elif computer_pick == "rock" and user_input == "paper":
         print("You Won.")
-        break
+        user_wins += 1
     
-    if  computer_pick == "rock" and user_input == "scissors":
-        print("You lost.")
-        break
-    
-    if computer_pick == "paper" and user_input == "rock":
-        print("You lost.")
-        break
-    
-    if computer_pick == "paper" and user_input == "scissors":
+    elif computer_pick == "paper" and user_input == "scissors":
         print("You won.")
-        break
+        computer_wins +=1
+        user_wins += 1
     
-    if computer_pick == "scissors" and user_input == "paper":
-        print("You lost.")
-        break
-    
-    if computer_pick == "scissors" and user_input == "rock":
+    elif computer_pick == "scissors" and user_input == "rock":
         print("You won.")
-        break
+        computer_wins +=1
+        user_wins += 1
+    
+    else:
+        print("You lost!")
+        computer_wins +=1
     
     
+print("your score: ", user_wins)    
+print("computer score: ", computer_wins)  
+
+if user_wins > computer_wins:
+    print("You won!")  
+elif user_wins == computer_wins:
+    print("It's a tie.")
+else:
+    print("You lost!")
     
 print("Goodbye!")
+
 
 
     
